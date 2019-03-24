@@ -48,6 +48,10 @@
                 font-size: 84px;
             }
 
+            .subtitle {
+                font-size: 30px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -58,8 +62,20 @@
                 text-transform: uppercase;
             }
 
+            .m-b-lg {
+                margin-bottom: 60px;
+            }
+
             .m-b-md {
                 margin-bottom: 30px;
+            }
+
+            .m-b-sm {
+                margin-bottom: 15px;
+            }
+
+            .bold {
+                font-weight: bold;
             }
         </style>
     </head>
@@ -80,9 +96,11 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title m-b-sm">
+                    Laravel 5.8
                 </div>
+
+                <div class="m-b-lg subtitle">Empty Laravel Project with ide-helper included</div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -92,6 +110,7 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/SchuBu/new-laravel-project">GitHub Package</a>
                 </div>
             </div>
         </div>
